@@ -1,6 +1,6 @@
 # Saksham Sharma
 
-A 19 year old Python developer, pursuing BCS at Universit of Waterloo. I'm an AI/ML enthusiast, and have a keen interest in robotics.
+A 19 year old Python developer, pursuing BCS at University of Waterloo. I'm an AI/ML enthusiast, and have a keen interest in robotics.
 
 
 ![Saksham's Github Stats](https://github-readme-stats.vercel.app/api?username=saksham-uw&show_icons=true&theme=dracula)
