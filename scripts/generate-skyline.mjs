@@ -7,6 +7,8 @@
  * instead of touring the year in order.
  */
 
+import { writeHudAssets } from "./generate-hud.mjs";
+
 const USERNAME = process.env.USERNAME || "saksham-uw";
 const OUT_PATH = new URL("../assets/contributions.svg", import.meta.url);
 
@@ -633,4 +635,6 @@ const svg = render(data, random);
 const fs = await import("node:fs/promises");
 await fs.mkdir(new URL("../assets/", import.meta.url), { recursive: true });
 await fs.writeFile(OUT_PATH, svg);
+const total = data.contributions.reduce((sum, d) => sum + d.count, 0);
+await writeHudAssets({ total });
 console.log(`Wrote ${OUT_PATH.pathname} (${svg.length} bytes)`);

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 268" role="img" aria-label="systems and stack monitor">
+  <title>ops monitor</title>
+  <rect width="900" height="268" rx="4" fill="#001744"/>
+  
+    <path d="M8 22 V8 H22" fill="none" stroke="#F41B4D" stroke-width="1.6"/>
+    <path d="M878 8 H892 V22" fill="none" stroke="#F41B4D" stroke-width="1.6"/>
+    <path d="M8 246 V260 H22" fill="none" stroke="#F41B4D" stroke-width="1.6"/>
+    <path d="M878 260 H892 V246" fill="none" stroke="#F41B4D" stroke-width="1.6"/>
+  
+  <rect x="8" y="8" width="884" height="252" fill="none" stroke="#F41B4D" stroke-opacity="0.28" stroke-width="1"/>
+  <rect x="0" y="0" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="3" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="6" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="9" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="12" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="15" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="18" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="21" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="24" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="27" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="30" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="33" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="36" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="39" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="42" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="45" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="48" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="51" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="54" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="57" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="60" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="63" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="66" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="69" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="72" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="75" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="78" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="81" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="84" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="87" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="90" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="93" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="96" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="99" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="102" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="105" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="108" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="111" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="114" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="117" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="120" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="123" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="126" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="129" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="132" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="135" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="138" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="141" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="144" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="147" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="150" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="153" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="156" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="159" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="162" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="165" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="168" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="171" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="174" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="177" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="180" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="183" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="186" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="189" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="192" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="195" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="198" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="201" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="204" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="207" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="210" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="213" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="216" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="219" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="222" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="225" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="228" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="231" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="234" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="237" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="240" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="243" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="246" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="249" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="252" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="255" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="258" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="261" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="264" width="900" height="1" fill="#ffffff" opacity="0.035"/><rect x="0" y="267" width="900" height="1" fill="#ffffff" opacity="0.035"/>
+  <line x1="450" y1="22" x2="450" y2="246" stroke="#F41B4D" stroke-opacity="0.35"/>
+
+  <text x="28" y="38" fill="#F41B4D" font-size="12" letter-spacing="3" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">SYS.MODULES</text>
+  <text x="470" y="38" fill="#F41B4D" font-size="12" letter-spacing="3" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">DEPLOYED.UNITS</text>
+  
+        <text x="28" y="62" fill="#8ea0c8" font-size="11" letter-spacing="1.6" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">TYPESCRIPT</text>
+        <rect x="168" y="51" width="210" height="10" fill="#0a2258"/>
+        <rect x="168" y="51" width="193.2" height="10" fill="#F41B4D"/>
+        <text x="388" y="62" fill="#F41B4D" font-size="10" letter-spacing="1.2" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">92%</text>
+      
+        <text x="28" y="86" fill="#8ea0c8" font-size="11" letter-spacing="1.6" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">PYTHON</text>
+        <rect x="168" y="75" width="210" height="10" fill="#0a2258"/>
+        <rect x="168" y="75" width="176.4" height="10" fill="#F41B4D"/>
+        <text x="388" y="86" fill="#F41B4D" font-size="10" letter-spacing="1.2" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">84%</text>
+      
+        <text x="28" y="110" fill="#8ea0c8" font-size="11" letter-spacing="1.6" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">C / ESP32</text>
+        <rect x="168" y="99" width="210" height="10" fill="#0a2258"/>
+        <rect x="168" y="99" width="151.2" height="10" fill="#F41B4D"/>
+        <text x="388" y="110" fill="#F41B4D" font-size="10" letter-spacing="1.2" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">72%</text>
+      
+        <text x="28" y="134" fill="#8ea0c8" font-size="11" letter-spacing="1.6" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">REACT / NEXT</text>
+        <rect x="168" y="123" width="210" height="10" fill="#0a2258"/>
+        <rect x="168" y="123" width="189.0" height="10" fill="#F41B4D"/>
+        <text x="388" y="134" fill="#F41B4D" font-size="10" letter-spacing="1.2" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">90%</text>
+      
+        <text x="28" y="158" fill="#8ea0c8" font-size="11" letter-spacing="1.6" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">NODE</text>
+        <rect x="168" y="147" width="210" height="10" fill="#0a2258"/>
+        <rect x="168" y="147" width="180.6" height="10" fill="#F41B4D"/>
+        <text x="388" y="158" fill="#F41B4D" font-size="10" letter-spacing="1.2" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">86%</text>
+      
+        <text x="28" y="182" fill="#8ea0c8" font-size="11" letter-spacing="1.6" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">AWS</text>
+        <rect x="168" y="171" width="210" height="10" fill="#0a2258"/>
+        <rect x="168" y="171" width="163.8" height="10" fill="#F41B4D"/>
+        <text x="388" y="182" fill="#F41B4D" font-size="10" letter-spacing="1.2" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">78%</text>
+      
+        <text x="28" y="206" fill="#8ea0c8" font-size="11" letter-spacing="1.6" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">POSTGRES</text>
+        <rect x="168" y="195" width="210" height="10" fill="#0a2258"/>
+        <rect x="168" y="195" width="155.4" height="10" fill="#F41B4D"/>
+        <text x="388" y="206" fill="#F41B4D" font-size="10" letter-spacing="1.2" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">74%</text>
+      
+        <text x="28" y="230" fill="#8ea0c8" font-size="11" letter-spacing="1.6" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">LLM / AI</text>
+        <rect x="168" y="219" width="210" height="10" fill="#0a2258"/>
+        <rect x="168" y="219" width="172.2" height="10" fill="#F41B4D"/>
+        <text x="388" y="230" fill="#F41B4D" font-size="10" letter-spacing="1.2" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">82%</text>
+      
+  
+        <text x="470" y="62" fill="#e8eef8" font-size="13" letter-spacing="1.4" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">ULTRASSURE</text>
+        <text x="470" y="78" fill="#8ea0c8" font-size="10" letter-spacing="1.6" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">INSURANCE.CONTRACT.AI</text>
+        <circle cx="820" cy="62" r="4" fill="#F41B4D"/>
+        <text x="832" y="66" fill="#F41B4D" font-size="11" letter-spacing="2" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">LIVE</text>
+      
+        <text x="470" y="98" fill="#e8eef8" font-size="13" letter-spacing="1.4" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">HERMES</text>
+        <text x="470" y="114" fill="#8ea0c8" font-size="10" letter-spacing="1.6" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">ESP32.GIT.DECK</text>
+        <circle cx="820" cy="98" r="4" fill="#8ea0c8"/>
+        <text x="832" y="102" fill="#8ea0c8" font-size="11" letter-spacing="2" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">LAB</text>
+      
+        <text x="470" y="134" fill="#e8eef8" font-size="13" letter-spacing="1.4" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">THEMIS</text>
+        <text x="470" y="150" fill="#8ea0c8" font-size="10" letter-spacing="1.6" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">DOCUMENT.REDLINE</text>
+        <circle cx="820" cy="134" r="4" fill="#8ea0c8"/>
+        <text x="832" y="138" fill="#8ea0c8" font-size="11" letter-spacing="2" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">LAB</text>
+      
+        <text x="470" y="170" fill="#e8eef8" font-size="13" letter-spacing="1.4" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">WHY-BUDDY</text>
+        <text x="470" y="186" fill="#8ea0c8" font-size="10" letter-spacing="1.6" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">FEYNMAN.AGENTS</text>
+        <circle cx="820" cy="170" r="4" fill="#8ea0c8"/>
+        <text x="832" y="174" fill="#8ea0c8" font-size="11" letter-spacing="2" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">LAB</text>
+      
+        <text x="470" y="206" fill="#e8eef8" font-size="13" letter-spacing="1.4" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">SAKSHAM.PRO</text>
+        <text x="470" y="222" fill="#8ea0c8" font-size="10" letter-spacing="1.6" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">NEWTON.OS.PORTFOLIO</text>
+        <circle cx="820" cy="206" r="4" fill="#F41B4D"/>
+        <text x="832" y="210" fill="#F41B4D" font-size="11" letter-spacing="2" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, monospace">LIVE</text>
+      
+</svg>
