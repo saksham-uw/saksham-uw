@@ -7,10 +7,9 @@
  * instead of touring the year in order.
  */
 
-import { writeHudAssets } from "./generate-hud.mjs";
+import { writeTerminal } from "./generate-hud.mjs";
 
 const USERNAME = process.env.USERNAME || "saksham-uw";
-const OUT_PATH = new URL("../assets/contributions.svg", import.meta.url);
 
 const TILE_W = 18;
 const TILE_H = 9;
@@ -495,7 +494,7 @@ function kirbyGraphic() {
   </g>`;
 }
 
-function render(data, random) {
+function renderSkylineScene(data, random) {
   const days = data.contributions;
   const weeks = toWeeks(days);
   const weekCount = weeks.length;
@@ -563,25 +562,15 @@ function render(data, random) {
     bounds.minX = Math.min(bounds.minX, p.x - 36);
   }
 
-  const padX = 36;
-  const padTop = 56;
-  const padBottom = 16;
+  const padX = 28;
+  const padTop = 8;
+  const padBottom = 8;
   const minX = bounds.minX - padX;
   const minY = bounds.minY - padTop;
   const width = bounds.maxX - bounds.minX + padX * 2;
   const height = bounds.maxY - bounds.minY + padTop + padBottom;
-  const countLabel = escapeXml(
-    `${total.toLocaleString("en-US")} contributions in the last year`,
-  );
+  const countLabel = `${total.toLocaleString("en-US")} contributions in the last year`;
   const dur = fmt(timeline.duration);
-
-  const legend = [0, 1, 2, 3, 4]
-    .map((level, i) => {
-      const x = minX + width - 28 - (5 - i) * 14;
-      const y = minY + 18;
-      return `<rect x="${fmt(x)}" y="${fmt(y)}" width="11" height="11" rx="2" fill="${LEVEL_TOP[level]}"/>`;
-    })
-    .join("");
 
   const css = `
   #kirby-shadow {
@@ -615,26 +604,19 @@ function render(data, random) {
     93%, 95% { transform: scaleY(0.08); }
   }`;
 
-  return `<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="${fmt(minX)} ${fmt(minY)} ${fmt(width)} ${fmt(height)}" role="img" aria-label="${countLabel}">
-  <title>Kirby hopping a random path across the contribution skyline</title>
-  <style>${css}
-  </style>
-  <rect x="${fmt(minX)}" y="${fmt(minY)}" width="${fmt(width)}" height="${fmt(height)}" rx="18" fill="${FIELD}"/>
-  <text x="${fmt(minX + 28)}" y="${fmt(minY + 28)}" fill="#e8eef8" font-size="15" font-weight="600" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">${countLabel}</text>
-  ${legend}
-  ${parts.join("\n  ")}
-  ${kirbyGraphic()}
-</svg>
-`;
+  return {
+    total,
+    countLabel,
+    css,
+    minX,
+    minY,
+    width,
+    height,
+    inner: `${parts.join("\n  ")}\n  ${kirbyGraphic()}`,
+  };
 }
 
 const random = makeRng(process.env.SEED);
 const data = await fetchContributions(USERNAME);
-const svg = render(data, random);
-const fs = await import("node:fs/promises");
-await fs.mkdir(new URL("../assets/", import.meta.url), { recursive: true });
-await fs.writeFile(OUT_PATH, svg);
-const total = data.contributions.reduce((sum, d) => sum + d.count, 0);
-await writeHudAssets({ total });
-console.log(`Wrote ${OUT_PATH.pathname} (${svg.length} bytes)`);
+const scene = renderSkylineScene(data, random);
+await writeTerminal(scene);
