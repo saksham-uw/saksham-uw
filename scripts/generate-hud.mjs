@@ -106,8 +106,8 @@ function renderTerminal(scene) {
 
   const whoamiLines = [
     "saksham",
-    "24 y.o. software engineer  ᕙ(`▿´)ᕗ",
-    "CTO @ Ultrassure · Toronto · Waterloo CS / AI",
+    "software engineer  ᕙ(`▿´)ᕗ",
+    "CTO @ Ultrassure · Toronto · Waterloo CS / AI Alum",
     "I make random cool stuff",
   ];
 
@@ -211,7 +211,7 @@ function renderTerminal(scene) {
   ${moduleMarkup}
 
   ${prompt(PAD, cursorY, "")}
-  <rect class="cursor" x="${PAD + 118}" y="${cursorY - 12}" width="8" height="14" fill="${ACCENT}"/>
+  <rect class="cursor" x="${PAD + 156}" y="${cursorY - 12}" width="8" height="14" fill="${ACCENT}"/>
 
   ${scanlines(W, H)}
   <rect class="scan" x="0" y="0" width="${W}" height="12" fill="${ACCENT}" opacity="0.06"/>
