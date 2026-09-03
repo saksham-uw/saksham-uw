@@ -38,12 +38,15 @@ function scanlines(width, height) {
   return lines.join("");
 }
 
-function prompt(x, y, cmd) {
+function prompt(x, y, cmd, { cursor = false } = {}) {
+  const cmdPart = cursor
+    ? `<tspan fill="${TEXT}">$ </tspan><tspan class="cursor" fill="${ACCENT}">█</tspan>`
+    : `<tspan fill="${TEXT}">$ ${esc(cmd)}</tspan>`;
   return `<text x="${x}" y="${y}" font-size="13" font-family="${FONT}">
       <tspan fill="${ACCENT}">saksham@uw</tspan>
       <tspan fill="${MUTED}">:</tspan>
       <tspan fill="${CYAN}">~</tspan>
-      <tspan fill="${TEXT}">$ ${esc(cmd)}</tspan>
+      ${cmdPart}
     </text>`;
 }
 
@@ -210,8 +213,7 @@ function renderTerminal(scene) {
   ${prompt(PAD, modPrompt, "cat /proc/modules")}
   ${moduleMarkup}
 
-  ${prompt(PAD, cursorY, "")}
-  <rect class="cursor" x="${PAD + 156}" y="${cursorY - 12}" width="8" height="14" fill="${ACCENT}"/>
+  ${prompt(PAD, cursorY, "", { cursor: true })}
 
   ${scanlines(W, H)}
   <rect class="scan" x="0" y="0" width="${W}" height="12" fill="${ACCENT}" opacity="0.06"/>
